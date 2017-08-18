@@ -1,0 +1,15 @@
+Differentiate between JVM,JDK and JRE
+
+A Java virtual machine is an abstract camputing machine that enables a computer to run a 
+Java Program,mechanism which translates the byte code into native executables code either 
+by using the java interpreter or Just in Time Compiler. It is also includedwith some other 
+tools like Garbage collector to free the unused objects and Thread Synchronization mechanism 
+to control  multiple processed to execute multiple functions at a time using single processor.
+
+Java RuntimeEnvironment(JRE)is a software package that contains what is required to run a 
+java program.It is the combination of JVM and with some other tools like class Loader,Byte
+code verifier,Java API and Runtime libraries. A computer must be installed with the total 
+JRE to run any application
+
+Java Development Kit(JDK) is asuperset of JRE and contain tools for java programmers.It
+would provide many tools to go with the developlment process of any java program.
